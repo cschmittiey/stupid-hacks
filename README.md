@@ -14,12 +14,12 @@ things i shouldn't have had to do to get things working like they should.
 things should work now.
 
 ### Telegram won't show up when running it under deepin?
--create /usr/bin/telegram with the following contents:
+- create /usr/bin/telegram with the following contents:
 ```bash
 #!/bin/bash
 unset XDG_CURRENT_DESKTOP
 /usr/bin/telegram-desktop
 ```
 
--replace /usr/bin/telegram-desktop in the .desktop of the launcher with /usr/bin/telegram.
+- replace /usr/bin/telegram-desktop in the .desktop of the launcher with /usr/bin/telegram.
 
