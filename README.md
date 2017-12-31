@@ -23,3 +23,6 @@ unset XDG_CURRENT_DESKTOP
 
 - replace /usr/bin/telegram-desktop in the .desktop of the launcher with /usr/bin/telegram.
 
+### HTC 10 RUU not running on a nice, fresh windows install?
+
+yeah you're gonna need the Visual Studio 2008 redistributable library. I wish I was kidding.
