@@ -27,7 +27,3 @@ unset XDG_CURRENT_DESKTOP
 
 yeah you're gonna need the Visual Studio 2008 redistributable library. I wish I was kidding.
 
-### Use more than one GPU with the nvidia linux drivers
-```bash
-$ sudo nvidia-xconfig --multigpu=AUTO
-```
