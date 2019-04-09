@@ -27,3 +27,6 @@ unset XDG_CURRENT_DESKTOP
 
 yeah you're gonna need the Visual Studio 2008 redistributable library. I wish I was kidding.
 
+### Need to convert your wav file into a digium ringtone?
+
+sox -V infile.wav -t raw -r 16k -e signed -b 16 -c 1 outfile.sln
